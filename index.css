@@ -1,0 +1,36 @@
+.header {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+#nav-anchor {
+  border-radius: 25px;
+  background: white;
+  color: hsl(322, 100%, 66%);
+  border-color: hsl(322, 100%, 66%);
+}
+#nav-anchor:hover {
+  background: hsl(322, 100%, 66%);
+  color: white;
+}
+#main-header {
+  color: hsl(192, 100%, 9%);
+}
+#main-p {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1.5%;
+}
+.statistics {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#bg {
+  background-image: url("images/bg-section-top-desktop-1.svg"),
+    url("images/bg-section-bottom-desktop-1.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+}
